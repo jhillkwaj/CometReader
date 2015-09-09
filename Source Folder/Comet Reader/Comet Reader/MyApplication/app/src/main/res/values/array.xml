@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="spinnerItems">
+        <item>"All Posts"</item>
+        <item>Starred Only</item>
+        <item>"Unread Only"</item>
+        <item>Read Only</item>
+    </string-array>
+    <string-array name="tryTheseFeeds">
+        <item>"Select Feed"</item>
+        <item>"Business Professionals of America© Michigan Association"</item>
+        <item>"Engadget©"</item>
+        <item>Candy Blog©</item>
+        <item>"IGN.com©"</item>
+        <item>"NPR© News Headlines"</item>
+        <item>"Reddit© Front Page"</item>
+        <item>"Reddit© Today I Learned"</item>
+        <item>"Reddit© Technology"</item>
+        <item>"TechCrunch©"</item>
+        <item>New York Times© Home Page (U.S.)</item>
+    </string-array>
+</resources>

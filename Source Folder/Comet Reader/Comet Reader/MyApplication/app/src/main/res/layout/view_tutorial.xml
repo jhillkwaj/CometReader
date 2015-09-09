@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+        android:id="@+id/relative_layout">
+
+
+
+        <ImageView
+            android:id="@+id/image1"
+            android:layout_width="fill_parent"
+            android:scaleType="fitXY"
+            android:layout_height="700dp"
+            android:src="@drawable/t1"/>
+
+        <ImageView
+            android:id="@+id/image2"
+            android:layout_width="fill_parent"
+            android:scaleType="fitXY"
+            android:layout_height="700dp"
+            android:src="@drawable/t2"/>
+
+        <ImageView
+            android:id="@+id/image3"
+            android:layout_width="fill_parent"
+            android:scaleType="fitXY"
+            android:layout_height="700dp"
+            android:src="@drawable/t3"/>
+
+        <ImageView
+            android:id="@+id/image4"
+            android:layout_width="fill_parent"
+            android:scaleType="fitXY"
+            android:layout_height="700dp"
+            android:src="@drawable/t4"/>
+
+
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Continue"
+            android:id="@+id/button"
+            android:layout_marginTop="30dp"
+            android:layout_gravity="center_horizontal"/>
+
+    </LinearLayout>>
+
+</ScrollView>

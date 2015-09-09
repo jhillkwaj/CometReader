@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:bwq="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+
+    <item android:id="@+id/action_settings" android:title="@string/action_settings"
+        android:orderInCategory="3" app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/menu_item_share"
+        app:showAsAction="ifRoom"
+        android:title="Share"
+        bwq:actionProviderClass="android.support.v7.widget.ShareActionProvider"
+        android:orderInCategory="2" />
+
+    <item
+        android:id="@+id/star_post"
+        app:showAsAction="ifRoom"
+        android:title="Star Post"
+        android:orderInCategory="1"
+        android:icon="@drawable/btn_rating_star_off_disabled_holo_dark"/>
+
+
+
+
+</menu>

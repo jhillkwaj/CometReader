@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Comet Reader</string>
+    <string name="hello_world">String Test</string>
+    <string name="action_settings">Settings</string>
+    <string name="enter_url">URL</string>
+    <string name="feed_name">Name of Feed</string>
+    <string name="add_feed_button">Add Feed</string>
+    <string name="try_one">Or Try One Of These</string>
+
+
+</resources>
